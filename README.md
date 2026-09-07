@@ -47,5 +47,8 @@ alert removes that feedback loop.
 
 ## Licence
 
-CC BY 4.0. This repository holds instrument definitions and documentation rather
-than code, so a content licence is more appropriate than a software one.
+Copyright (c) 2026 Arya Kadakia, licensed under
+[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). This repository holds
+instrument definitions and documentation rather than code, so a content licence
+is more appropriate than a software one. You may share and adapt the material,
+including commercially, with attribution.
