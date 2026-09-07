@@ -1,0 +1,21 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+Copyright (c) 2026 Arya Kadakia
+
+The REDCap instrument definitions and written documentation in this
+repository are licensed under the Creative Commons Attribution 4.0
+International License.
+
+You are free to share and adapt this material for any purpose, including
+commercially, provided you give appropriate credit, provide a link to the
+license, and indicate if changes were made.
+
+  License deed: https://creativecommons.org/licenses/by/4.0/
+  Legal code:   https://creativecommons.org/licenses/by/4.0/legalcode
+
+CC BY is used here rather than a software licence because this repository
+contains instrument definitions and documentation rather than executable
+code.
+
+The XML files are project metadata exports: form and field definitions,
+validation rules and branching logic. They contain no participant records.
