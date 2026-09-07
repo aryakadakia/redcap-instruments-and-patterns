@@ -1,0 +1,726 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ODM xmlns="http://www.cdisc.org/ns/odm/v1.3" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:redcap="https://projectredcap.org" xsi:schemaLocation="http://www.cdisc.org/ns/odm/v1.3 schema/odm/ODM1-3-1.xsd" ODMVersion="1.3.1" FileOID="000-00-0000" FileType="Snapshot" Description="PCORI Client Screener" AsOfDateTime="2026-08-25T16:31:11" CreationDateTime="2026-08-25T16:31:11" SourceSystem="REDCap" SourceSystemVersion="17.4.1">
+<Study OID="Project.PCORIClientScreener">
+<GlobalVariables>
+	<StudyName>PCORI Client Screener</StudyName>
+	<StudyDescription>This file contains the metadata, events, and data for REDCap project "PCORI Client Screener".</StudyDescription>
+	<ProtocolName>PCORI Client Screener</ProtocolName>
+	<redcap:RecordAutonumberingEnabled>1</redcap:RecordAutonumberingEnabled>
+	<redcap:CustomRecordLabel></redcap:CustomRecordLabel>
+	<redcap:SecondaryUniqueField></redcap:SecondaryUniqueField>
+	<redcap:SecondaryUniqueFieldDisplayValue>1</redcap:SecondaryUniqueFieldDisplayValue>
+	<redcap:SecondaryUniqueFieldDisplayLabel>1</redcap:SecondaryUniqueFieldDisplayLabel>
+	<redcap:SchedulingEnabled>0</redcap:SchedulingEnabled>
+	<redcap:SurveysEnabled>1</redcap:SurveysEnabled>
+	<redcap:SurveyInvitationEmailField></redcap:SurveyInvitationEmailField>
+	<redcap:SurveyParticipantIdentifiers>0</redcap:SurveyParticipantIdentifiers>
+	<redcap:RandomizationEnabled>0</redcap:RandomizationEnabled>
+	<redcap:DisplayTodayNowButton>1</redcap:DisplayTodayNowButton>
+	<redcap:PreventBranchingEraseValues>0</redcap:PreventBranchingEraseValues>
+	<redcap:RequireChangeReason>0</redcap:RequireChangeReason>
+	<redcap:DataHistoryPopup>1</redcap:DataHistoryPopup>
+	<redcap:OrderRecordsByField></redcap:OrderRecordsByField>
+	<redcap:taskCompleteStatus>0</redcap:taskCompleteStatus>
+	<redcap:DataResolutionWorkflowEnabled>1</redcap:DataResolutionWorkflowEnabled>
+	<redcap:FieldCommentLogOptionEditDelete>1</redcap:FieldCommentLogOptionEditDelete>
+	<redcap:DataResolutionWorkflowHideClosedQueries>1</redcap:DataResolutionWorkflowHideClosedQueries>
+	<redcap:MyCapEnabled>0</redcap:MyCapEnabled>
+	<redcap:Purpose>2</redcap:Purpose>
+	<redcap:PurposeOther>3</redcap:PurposeOther>
+	<redcap:ProjectNotes>Separating client identifiers from outcome data collection.</redcap:ProjectNotes>
+	<redcap:SurveyAuthEnabled>0</redcap:SurveyAuthEnabled>
+	<redcap:SurveyAuthField1></redcap:SurveyAuthField1>
+	<redcap:SurveyAuthEvent1></redcap:SurveyAuthEvent1>
+	<redcap:SurveyAuthField2></redcap:SurveyAuthField2>
+	<redcap:SurveyAuthEvent2></redcap:SurveyAuthEvent2>
+	<redcap:SurveyAuthField3></redcap:SurveyAuthField3>
+	<redcap:SurveyAuthEvent3></redcap:SurveyAuthEvent3>
+	<redcap:SurveyAuthMinFields></redcap:SurveyAuthMinFields>
+	<redcap:SurveyAuthApplyAllSurveys>1</redcap:SurveyAuthApplyAllSurveys>
+	<redcap:SurveyAuthCustomMessage></redcap:SurveyAuthCustomMessage>
+	<redcap:SurveyAuthFailLimit></redcap:SurveyAuthFailLimit>
+	<redcap:SurveyAuthFailWindow></redcap:SurveyAuthFailWindow>
+	<redcap:MissingDataCodes></redcap:MissingDataCodes>
+	<redcap:ProtectedEmailMode>0</redcap:ProtectedEmailMode>
+	<redcap:ProtectedEmailModeCustomText></redcap:ProtectedEmailModeCustomText>
+	<redcap:ProtectedEmailModeTrigger>ALL</redcap:ProtectedEmailModeTrigger>
+	<redcap:ProtectedEmailModeLogo></redcap:ProtectedEmailModeLogo>
+	<redcap:SurveysGroup>
+		<redcap:Surveys form_name="focus_recruitment_form" title="FOCUS Recruitment Form" instructions="&lt;p&gt;&lt;strong&gt;Please complete the survey below.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Thank you!&lt;/p&gt;" offline_instructions="&lt;p&gt;Thank you for your interest in the FOCUS study. Unfortunately, the study has concluded and is no longer recruiting participants.&lt;/p&gt;" acknowledgement="&lt;p&gt;&lt;strong&gt;Thank you for taking the survey.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Have a nice day!&lt;/p&gt;" stop_action_acknowledgement="" stop_action_delete_response="0" question_by_section="0" display_page_number="0" question_auto_numbering="0" survey_enabled="0" save_and_return="0" save_and_return_code_bypass="0" logo="" hide_title="0" view_results="0" min_responses_view_results="10" check_diversity_view_results="0" end_survey_redirect_url="" survey_expiration="" promis_skip_question="0" survey_auth_enabled_single="0" edit_completed_response="0" hide_back_button="0" show_required_field_text="1" confirmation_email_subject="" confirmation_email_content="" confirmation_email_from="" confirmation_email_from_display="" confirmation_email_attach_pdf="0" confirmation_email_attachment="" text_to_speech="0" text_to_speech_language="en" end_survey_redirect_next_survey="0" end_survey_redirect_redcap_share_before_next_survey="0" end_survey_redirect_next_survey_logic="" theme="" text_size="1" font_family="16" custom_css="" theme_text_buttons="" theme_bg_page="" theme_text_title="" theme_bg_title="" theme_text_sectionheader="" theme_bg_sectionheader="" theme_text_question="" theme_bg_question="" enhanced_choices="0" repeat_survey_enabled="0" repeat_survey_btn_text="" repeat_survey_btn_location="HIDDEN" response_limit="" response_limit_include_partials="1" response_limit_custom_text="&lt;p&gt;Thank you for your interest; however, the survey is closed because the maximum number of responses has been reached.&lt;/p&gt;" survey_time_limit_days="" survey_time_limit_hours="" survey_time_limit_minutes="" email_participant_field="" end_of_survey_pdf_download="0" pdf_save_to_field="" pdf_save_to_event_id="" pdf_save_translated="0" pdf_auto_archive="0" pdf_econsent_version="" pdf_econsent_type="" pdf_econsent_firstname_field="" pdf_econsent_firstname_event_id="" pdf_econsent_lastname_field="" pdf_econsent_lastname_event_id="" pdf_econsent_dob_field="" pdf_econsent_dob_event_id="" pdf_econsent_allow_edit="1" pdf_econsent_signature_field1="" pdf_econsent_signature_field2="" pdf_econsent_signature_field3="" pdf_econsent_signature_field4="" pdf_econsent_signature_field5="" survey_width_percent="" survey_show_font_resize="1" survey_btn_text_prev_page="" survey_btn_text_next_page="" survey_btn_text_submit="" survey_btn_hide_submit="0" survey_btn_hide_submit_logic=""/>
+		<redcap:Surveys form_name="thank_you" title="Thank you!" instructions="" offline_instructions="" acknowledgement="&lt;p&gt;&lt;strong&gt;Thank you for taking the survey.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Have a nice day!&lt;/p&gt;" stop_action_acknowledgement="" stop_action_delete_response="0" question_by_section="0" display_page_number="0" question_auto_numbering="1" survey_enabled="0" save_and_return="0" save_and_return_code_bypass="0" logo="" hide_title="0" view_results="0" min_responses_view_results="10" check_diversity_view_results="0" end_survey_redirect_url="" survey_expiration="" promis_skip_question="0" survey_auth_enabled_single="0" edit_completed_response="0" hide_back_button="0" show_required_field_text="1" confirmation_email_subject="" confirmation_email_content="" confirmation_email_from="" confirmation_email_from_display="" confirmation_email_attach_pdf="0" confirmation_email_attachment="" text_to_speech="0" text_to_speech_language="en" end_survey_redirect_next_survey="0" end_survey_redirect_redcap_share_before_next_survey="0" end_survey_redirect_next_survey_logic="" theme="" text_size="1" font_family="16" custom_css="" theme_text_buttons="" theme_bg_page="" theme_text_title="" theme_bg_title="" theme_text_sectionheader="" theme_bg_sectionheader="" theme_text_question="" theme_bg_question="" enhanced_choices="0" repeat_survey_enabled="0" repeat_survey_btn_text="" repeat_survey_btn_location="BEFORE_SUBMIT" response_limit="" response_limit_include_partials="1" response_limit_custom_text="&lt;p&gt;Thank you for your interest; however, the survey is closed because the maximum number of responses has been reached.&lt;/p&gt;" survey_time_limit_days="" survey_time_limit_hours="" survey_time_limit_minutes="" email_participant_field="" end_of_survey_pdf_download="0" pdf_save_to_field="" pdf_save_to_event_id="" pdf_save_translated="0" pdf_auto_archive="0" pdf_econsent_version="" pdf_econsent_type="" pdf_econsent_firstname_field="" pdf_econsent_firstname_event_id="" pdf_econsent_lastname_field="" pdf_econsent_lastname_event_id="" pdf_econsent_dob_field="" pdf_econsent_dob_event_id="" pdf_econsent_allow_edit="1" pdf_econsent_signature_field1="" pdf_econsent_signature_field2="" pdf_econsent_signature_field3="" pdf_econsent_signature_field4="" pdf_econsent_signature_field5="" survey_width_percent="" survey_show_font_resize="1" survey_btn_text_prev_page="" survey_btn_text_next_page="" survey_btn_text_submit="" survey_btn_hide_submit="0" survey_btn_hide_submit_logic=""/>
+	</redcap:SurveysGroup>
+	<redcap:ReportsGroup>
+		<redcap:Reports title="Manchester (Overall)" unique_report_name="R-188LHMA4FP" report_order="1" user_access="ALL" user_edit_access="ALL" description="&lt;p&gt;&lt;br data-mce-bogus=&quot;1&quot;&gt;&lt;/p&gt;" combine_checkbox_values="0" output_dags="0" output_survey_fields="0" output_missing_data_codes="0" remove_line_breaks_in_values="1" orderby_field1="record_id" orderby_sort1="ASC" orderby_field2="" orderby_sort2="" orderby_field3="" orderby_sort3="" advanced_logic="([health_center] = &quot;2&quot;) AND ([track_invalid] != &quot;1&quot;)" filter_type="EVENT" dynamic_filter1="" dynamic_filter2="" dynamic_filter3="" hash="78ACKY74PP9EFDY3" short_url="" is_public="0" report_display_include_repeating_fields="1" report_display_header="BOTH" report_display_data="BOTH" password="" limiter_logic="([health_center] = &quot;2&quot;) AND ([track_invalid] != &quot;1&quot;)" redcap_reports_fields="datetime,record_id,referral_source,client_id,mhcgm_team,client_first_name,client_last_name,track_call_date,track_consent_call,call_interest,track_focus_eligible,track_participation_type,track_obtained_consent,track_focus_study_ineligble,track_credentials_shared,track_installed_focus,track_phone_model,track_os" redcap_reports_filter_dags="" redcap_reports_filter_events="" ID="1e14312a6b7e50b7c78d2af7ea1e4adf956fd7bc"/>
+		<redcap:Reports title="Kitsap (Overall)" unique_report_name="R-9588FAYY87" report_order="2" user_access="ALL" user_edit_access="ALL" description="" combine_checkbox_values="0" output_dags="0" output_survey_fields="0" output_missing_data_codes="0" remove_line_breaks_in_values="1" orderby_field1="record_id" orderby_sort1="ASC" orderby_field2="" orderby_sort2="" orderby_field3="" orderby_sort3="" advanced_logic="([health_center] = &quot;4&quot;) AND ([track_invalid] != &quot;1&quot;)" filter_type="EVENT" dynamic_filter1="" dynamic_filter2="" dynamic_filter3="" hash="T78RJRMLY7FTT7WE" short_url="" is_public="0" report_display_include_repeating_fields="1" report_display_header="BOTH" report_display_data="BOTH" password="" limiter_logic="([health_center] = &quot;4&quot;) AND ([track_invalid] != &quot;1&quot;)" redcap_reports_fields="datetime,record_id,referral_source,client_id,kt_team,client_first_name,client_last_name,track_call_date,track_consent_call,call_interest,track_focus_eligible,track_participation_type,track_obtained_consent,track_focus_study_ineligble,track_credentials_shared,track_installed_focus,track_phone_model,track_os" redcap_reports_filter_dags="" redcap_reports_filter_events="" ID="8c934d9cc58678e7567abbfbb2f31c6c759da808"/>
+		<redcap:Reports title="SFMHC (Overall)" unique_report_name="R-141F3KRAWE" report_order="3" user_access="ALL" user_edit_access="ALL" description="" combine_checkbox_values="0" output_dags="0" output_survey_fields="0" output_missing_data_codes="0" remove_line_breaks_in_values="1" orderby_field1="record_id" orderby_sort1="ASC" orderby_field2="" orderby_sort2="" orderby_field3="" orderby_sort3="" advanced_logic="([health_center] = &quot;5&quot;) AND ([track_invalid] != &quot;1&quot;)" filter_type="EVENT" dynamic_filter1="" dynamic_filter2="" dynamic_filter3="" hash="38H7T8DNFNYT3DAC" short_url="" is_public="0" report_display_include_repeating_fields="1" report_display_header="BOTH" report_display_data="BOTH" password="" limiter_logic="([health_center] = &quot;5&quot;) AND ([track_invalid] != &quot;1&quot;)" redcap_reports_fields="datetime,record_id,referral_source,client_id,kt_team,client_first_name,client_last_name,track_call_date,track_consent_call,call_interest,track_focus_eligible,track_participation_type,track_obtained_consent,track_focus_study_ineligble,track_credentials_shared,track_installed_focus,track_phone_model,track_os" redcap_reports_filter_dags="" redcap_reports_filter_events="" ID="95ed932cef73d25eade60f2a1039ee5f4eddffe2"/>
+		<redcap:Reports title="CP (Overall)" unique_report_name="R-652L4JARKR" report_order="4" user_access="ALL" user_edit_access="ALL" description="" combine_checkbox_values="0" output_dags="0" output_survey_fields="0" output_missing_data_codes="0" remove_line_breaks_in_values="1" orderby_field1="record_id" orderby_sort1="ASC" orderby_field2="" orderby_sort2="" orderby_field3="" orderby_sort3="" advanced_logic="([health_center] = &quot;3&quot;) AND ([track_invalid] != &quot;1&quot;)" filter_type="EVENT" dynamic_filter1="" dynamic_filter2="" dynamic_filter3="" hash="FF4LWL87MEDKFPME" short_url="" is_public="0" report_display_include_repeating_fields="1" report_display_header="BOTH" report_display_data="BOTH" password="" limiter_logic="([health_center] = &quot;3&quot;) AND ([track_invalid] != &quot;1&quot;)" redcap_reports_fields="record_id,referral_source,client_id,mhcgm_team,client_first_name,client_last_name,track_call_date,track_consent_call,call_interest,track_focus_eligible,track_participation_type,track_obtained_consent,track_focus_study_ineligble,track_credentials_shared,track_installed_focus,track_phone_model,track_os" redcap_reports_filter_dags="" redcap_reports_filter_events="" ID="22cbe6ca3c25d898c0a15cdf02a49c4f4b6509e0"/>
+		<redcap:Reports title="Places for People (Overall)" unique_report_name="R-231Y7KJ9TN" report_order="5" user_access="ALL" user_edit_access="ALL" description="&lt;p&gt;&lt;br data-mce-bogus=&quot;1&quot;&gt;&lt;/p&gt;" combine_checkbox_values="0" output_dags="0" output_survey_fields="0" output_missing_data_codes="0" remove_line_breaks_in_values="1" orderby_field1="record_id" orderby_sort1="ASC" orderby_field2="" orderby_sort2="" orderby_field3="" orderby_sort3="" advanced_logic="([health_center] = &quot;1&quot;) AND ([track_invalid] != &quot;1&quot;)" filter_type="EVENT" dynamic_filter1="" dynamic_filter2="" dynamic_filter3="" hash="ALTE73TLJJR3REPR" short_url="" is_public="0" report_display_include_repeating_fields="1" report_display_header="BOTH" report_display_data="BOTH" password="" limiter_logic="([health_center] = &quot;1&quot;) AND ([track_invalid] != &quot;1&quot;)" redcap_reports_fields="datetime,referral_source,pfp_team,client_id,record_id,client_first_name,client_last_name,track_call_date,track_consent_call,call_interest,track_focus_eligible,track_participation_type,track_obtained_consent,track_focus_study_ineligble,track_credentials_shared,track_installed_focus,track_phone_model,track_os" redcap_reports_filter_dags="" redcap_reports_filter_events="" ID="f103c7dee02b672f4e182f3f95848073deffa38c"/>
+		<redcap:Reports title="Team Report" unique_report_name="R-485778ED78" report_order="6" user_access="ALL" user_edit_access="ALL" description="" combine_checkbox_values="0" output_dags="0" output_survey_fields="0" output_missing_data_codes="0" remove_line_breaks_in_values="1" orderby_field1="record_id" orderby_sort1="ASC" orderby_field2="" orderby_sort2="" orderby_field3="" orderby_sort3="" advanced_logic="([track_invalid] != &quot;1&quot;)" filter_type="EVENT" dynamic_filter1="" dynamic_filter2="" dynamic_filter3="" hash="ECW7TPCNWTJCK4EA" short_url="" is_public="0" report_display_include_repeating_fields="1" report_display_header="BOTH" report_display_data="BOTH" password="" limiter_logic="([track_invalid] != &quot;1&quot;)" redcap_reports_fields="record_id,client_id,datetime,pfp_team,mhcgm_team,cp_team" redcap_reports_filter_dags="" redcap_reports_filter_events="" ID="1480e1b1681d8fc5f0dd23eab4dbce7087a6e8f6"/>
+		<redcap:Reports title="LTF" unique_report_name="R-954YDKWW8N" report_order="7" user_access="ALL" user_edit_access="ALL" description="" combine_checkbox_values="0" output_dags="0" output_survey_fields="0" output_missing_data_codes="0" remove_line_breaks_in_values="1" orderby_field1="record_id" orderby_sort1="ASC" orderby_field2="" orderby_sort2="" orderby_field3="" orderby_sort3="" advanced_logic="([lost_follow_up] = &quot;1&quot;)" filter_type="EVENT" dynamic_filter1="" dynamic_filter2="" dynamic_filter3="" hash="F8W7NCPR8TKJTWXM" short_url="" is_public="0" report_display_include_repeating_fields="1" report_display_header="BOTH" report_display_data="BOTH" password="" limiter_logic="([lost_follow_up] = &quot;1&quot;)" redcap_reports_fields="record_id,track_username" redcap_reports_filter_dags="" redcap_reports_filter_events="" ID="4c095d1fe699d9db3869248b25d65ca658cbdcdf"/>
+		<redcap:Reports title="Installs at Manchester" unique_report_name="R-289F7HLR3M" report_order="8" user_access="ALL" user_edit_access="ALL" description="" combine_checkbox_values="0" output_dags="0" output_survey_fields="0" output_missing_data_codes="0" remove_line_breaks_in_values="1" orderby_field1="record_id" orderby_sort1="ASC" orderby_field2="" orderby_sort2="" orderby_field3="" orderby_sort3="" advanced_logic="([track_installed_focus] = &quot;1&quot;) AND ([health_center] = &quot;2&quot;) AND ([track_invalid] != &quot;1&quot;)" filter_type="EVENT" dynamic_filter1="" dynamic_filter2="" dynamic_filter3="" hash="AXLP4NHTJDKMHDYY" short_url="" is_public="0" report_display_include_repeating_fields="1" report_display_header="BOTH" report_display_data="BOTH" password="" limiter_logic="([track_installed_focus] = &quot;1&quot;) AND ([health_center] = &quot;2&quot;) AND ([track_invalid] != &quot;1&quot;)" redcap_reports_fields="record_id,track_username,mhcgm_team,track_installed_focus" redcap_reports_filter_dags="" redcap_reports_filter_events="" ID="226754a1b3fe41729ffe5aa65689f86267c53e9d"/>
+	</redcap:ReportsGroup>
+	<redcap:AlertsGroup>
+		<redcap:Alerts alert_title="" alert_type="EMAIL" alert_stop_type="RECORD" email_deleted="1" alert_expiration="" form_name="focus_recruitment_form" form_name_event="event_1_arm_1" alert_condition="" ensure_logic_still_true="0" do_not_clear_recurrences="0" prevent_piping_identifiers="0" email_incomplete="0" email_from="arya1999@uw.edu" email_from_display="" email_to="arya1999@uw.edu;jtausch@uw.edu;merbis@uw.edu" phone_number_to="" email_cc="" email_bcc="" email_subject="PCORI: New Potential Participant" alert_message="&lt;p&gt;Hi, [client_id] has been recruited for PCORI. Please complete screening and consent for [client_id].&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;Thank you!&lt;/p&gt;" email_failed="" email_attachment_variable="" email_attachment1="" email_attachment2="" email_attachment3="" email_attachment4="" email_attachment5="" email_repetitive="0" email_repetitive_change="0" email_repetitive_change_calcs="0" cron_send_email_on="now" cron_send_email_on_date="" cron_send_email_on_time_lag_days="" cron_send_email_on_time_lag_hours="" cron_send_email_on_time_lag_minutes="" cron_send_email_on_field="" cron_send_email_on_field_after="after" reevaluate_send_time="0" cron_send_email_on_next_day_type="DAY" cron_send_email_on_next_time="" cron_repeat_for="0" cron_repeat_for_units="DAYS" cron_repeat_for_max="" email_timestamp_sent="2025-11-20 16:25:57" email_sent="1" alert_order="1" sendgrid_template_id="" sendgrid_template_data="{}" sendgrid_mail_send_configuration="{}" alert_number="1"/>
+		<redcap:Alerts alert_title="" alert_type="EMAIL" alert_stop_type="RECORD" email_deleted="1" alert_expiration="" form_name="focus_recruitment_form" form_name_event="event_1_arm_1" alert_condition="[referral_source]=1 and [health_center]=2" ensure_logic_still_true="0" do_not_clear_recurrences="0" prevent_piping_identifiers="0" email_incomplete="0" email_from="arya1999@uw.edu" email_from_display="" email_to="arya1999@uw.edu;merbis@uw.edu" phone_number_to="" email_cc="" email_bcc="" email_subject="Self-referral for FOCUS (Manchester)" alert_message="&lt;p&gt;There is a new self-referral for the FOCUS study:&lt;/p&gt;
+&lt;p&gt;Name: [client_first_name] [client_last_name]&lt;/p&gt;
+&lt;p&gt;Number: [phone]&lt;/p&gt;" email_failed="" email_attachment_variable="" email_attachment1="" email_attachment2="" email_attachment3="" email_attachment4="" email_attachment5="" email_repetitive="0" email_repetitive_change="0" email_repetitive_change_calcs="0" cron_send_email_on="now" cron_send_email_on_date="" cron_send_email_on_time_lag_days="" cron_send_email_on_time_lag_hours="" cron_send_email_on_time_lag_minutes="" cron_send_email_on_field="" cron_send_email_on_field_after="after" reevaluate_send_time="0" cron_send_email_on_next_day_type="DAY" cron_send_email_on_next_time="" cron_repeat_for="0" cron_repeat_for_units="DAYS" cron_repeat_for_max="" email_timestamp_sent="2025-11-20 16:25:57" email_sent="1" alert_order="2" sendgrid_template_id="" sendgrid_template_data="{}" sendgrid_mail_send_configuration="{}" alert_number="2"/>
+	</redcap:AlertsGroup>
+</GlobalVariables>
+<MetaDataVersion OID="Metadata.PCORIClientScreener_2026-08-25_1631" Name="PCORI Client Screener" redcap:RecordIdField="record_id">
+	<FormDef OID="Form.focus_recruitment_form" Name="FOCUS Recruitment Form" Repeating="No" redcap:FormName="focus_recruitment_form">
+		<ItemGroupRef ItemGroupOID="focus_recruitment_form.record_id" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="focus_recruitment_form.focus_recruitment_form_complete" Mandatory="No"/>
+	</FormDef>
+	<FormDef OID="Form.thank_you" Name="Thank you!" Repeating="No" redcap:FormName="thank_you">
+		<ItemGroupRef ItemGroupOID="thank_you.thank_you" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="thank_you.thank_you_complete" Mandatory="No"/>
+	</FormDef>
+	<FormDef OID="Form.tracker_form" Name="Tracker Form" Repeating="No" redcap:FormName="tracker_form">
+		<ItemGroupRef ItemGroupOID="tracker_form.track_invalid" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="tracker_form.track_id" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="tracker_form.track_call_date" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="tracker_form.track_consent_call" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="tracker_form.track_over_18" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="tracker_form.track_own_smartphone" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="tracker_form.track_study_summary" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="tracker_form.track_topics" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="tracker_form.track_obtained_consent" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="tracker_form.track_focus_study_ineligble" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="tracker_form.track_username" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="tracker_form.track_password" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="tracker_form.track_credentials_shared" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="tracker_form.track_installed_focus" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="tracker_form.tracker_form_complete" Mandatory="No"/>
+	</FormDef>
+	<ItemGroupDef OID="focus_recruitment_form.record_id" Name="FOCUS Recruitment Form" Repeating="No">
+		<ItemRef ItemOID="record_id" Mandatory="No" redcap:Variable="record_id"/>
+		<ItemRef ItemOID="datetime" Mandatory="No" redcap:Variable="datetime"/>
+		<ItemRef ItemOID="screener_desc" Mandatory="No" redcap:Variable="screener_desc"/>
+		<ItemRef ItemOID="referral_source" Mandatory="No" redcap:Variable="referral_source"/>
+		<ItemRef ItemOID="referral_name" Mandatory="No" redcap:Variable="referral_name"/>
+		<ItemRef ItemOID="client_first_name" Mandatory="Yes" redcap:Variable="client_first_name"/>
+		<ItemRef ItemOID="client_last_name" Mandatory="Yes" redcap:Variable="client_last_name"/>
+		<ItemRef ItemOID="phone" Mandatory="Yes" redcap:Variable="phone"/>
+		<ItemRef ItemOID="client_email" Mandatory="No" redcap:Variable="client_email"/>
+		<ItemRef ItemOID="guardian" Mandatory="No" redcap:Variable="guardian"/>
+		<ItemRef ItemOID="guardian_name" Mandatory="No" redcap:Variable="guardian_name"/>
+		<ItemRef ItemOID="guardian_number" Mandatory="No" redcap:Variable="guardian_number"/>
+		<ItemRef ItemOID="health_center" Mandatory="Yes" redcap:Variable="health_center"/>
+		<ItemRef ItemOID="pfp_team" Mandatory="No" redcap:Variable="pfp_team"/>
+		<ItemRef ItemOID="mhcgm_team" Mandatory="No" redcap:Variable="mhcgm_team"/>
+		<ItemRef ItemOID="cp_team" Mandatory="No" redcap:Variable="cp_team"/>
+		<ItemRef ItemOID="kt_team" Mandatory="No" redcap:Variable="kt_team"/>
+		<ItemRef ItemOID="client_research_interest" Mandatory="No" redcap:Variable="client_research_interest"/>
+		<ItemRef ItemOID="site_id" Mandatory="No" redcap:Variable="site_id"/>
+		<ItemRef ItemOID="other_id" Mandatory="No" redcap:Variable="other_id"/>
+		<ItemRef ItemOID="client_id" Mandatory="No" redcap:Variable="client_id"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="focus_recruitment_form.focus_recruitment_form_complete" Name="Form Status" Repeating="No">
+		<ItemRef ItemOID="focus_recruitment_form_complete" Mandatory="No" redcap:Variable="focus_recruitment_form_complete"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="thank_you.thank_you" Name="Thank you!" Repeating="No">
+		<ItemRef ItemOID="thank_you" Mandatory="No" redcap:Variable="thank_you"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="thank_you.thank_you_complete" Name="Form Status" Repeating="No">
+		<ItemRef ItemOID="thank_you_complete" Mandatory="No" redcap:Variable="thank_you_complete"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="tracker_form.track_invalid" Name="Participant Outreach: First Contact" Repeating="No">
+		<ItemRef ItemOID="track_invalid" Mandatory="No" redcap:Variable="track_invalid"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="tracker_form.track_id" Name="Tracker Form" Repeating="No">
+		<ItemRef ItemOID="track_id" Mandatory="No" redcap:Variable="track_id"/>
+		<ItemRef ItemOID="track_first_contact" Mandatory="No" redcap:Variable="track_first_contact"/>
+		<ItemRef ItemOID="track_first_text_date" Mandatory="No" redcap:Variable="track_first_text_date"/>
+		<ItemRef ItemOID="track_first_response" Mandatory="No" redcap:Variable="track_first_response"/>
+		<ItemRef ItemOID="track_second_contact" Mandatory="No" redcap:Variable="track_second_contact"/>
+		<ItemRef ItemOID="track_follow_call_date" Mandatory="No" redcap:Variable="track_follow_call_date"/>
+		<ItemRef ItemOID="track_follow_response" Mandatory="No" redcap:Variable="track_follow_response"/>
+		<ItemRef ItemOID="track_client_drop" Mandatory="No" redcap:Variable="track_client_drop"/>
+		<ItemRef ItemOID="call_interest" Mandatory="No" redcap:Variable="call_interest"/>
+		<ItemRef ItemOID="no_desc_call_reason" Mandatory="No" redcap:Variable="no_desc_call_reason"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="tracker_form.track_call_date" Name="Participant Outreach: Study Description" Repeating="No">
+		<ItemRef ItemOID="track_call_date" Mandatory="No" redcap:Variable="track_call_date"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="tracker_form.track_consent_call" Name="Tracker Form" Repeating="No">
+		<ItemRef ItemOID="track_consent_call" Mandatory="No" redcap:Variable="track_consent_call"/>
+		<ItemRef ItemOID="track_participation_type" Mandatory="No" redcap:Variable="track_participation_type"/>
+		<ItemRef ItemOID="track_initial_interest_reason" Mandatory="No" redcap:Variable="track_initial_interest_reason"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="tracker_form.track_over_18" Name="Participant Outreach: Eligibility" Repeating="No">
+		<ItemRef ItemOID="track_over_18" Mandatory="No" redcap:Variable="track_over_18"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="tracker_form.track_own_smartphone" Name="Tracker Form" Repeating="No">
+		<ItemRef ItemOID="track_own_smartphone" Mandatory="No" redcap:Variable="track_own_smartphone"/>
+		<ItemRef ItemOID="track_os" Mandatory="No" redcap:Variable="track_os"/>
+		<ItemRef ItemOID="track_phone_model" Mandatory="No" redcap:Variable="track_phone_model"/>
+		<ItemRef ItemOID="track_english_fluency" Mandatory="No" redcap:Variable="track_english_fluency"/>
+		<ItemRef ItemOID="track_receiving_services" Mandatory="No" redcap:Variable="track_receiving_services"/>
+		<ItemRef ItemOID="track_continue_services" Mandatory="No" redcap:Variable="track_continue_services"/>
+		<ItemRef ItemOID="track_phone_use_difficulty" Mandatory="No" redcap:Variable="track_phone_use_difficulty"/>
+		<ItemRef ItemOID="track_wifi_data" Mandatory="No" redcap:Variable="track_wifi_data"/>
+		<ItemRef ItemOID="track_phone_share" Mandatory="No" redcap:Variable="track_phone_share"/>
+		<ItemRef ItemOID="track_focus_eligible" Mandatory="No" redcap:Variable="track_focus_eligible"/>
+		<ItemRef ItemOID="mhealth_past" Mandatory="No" redcap:Variable="mhealth_past"/>
+		<ItemRef ItemOID="focus_past" Mandatory="No" redcap:Variable="focus_past"/>
+		<ItemRef ItemOID="consent_recontact" Mandatory="No" redcap:Variable="consent_recontact"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="tracker_form.track_study_summary" Name="Participant Outreach: Consenting" Repeating="No">
+		<ItemRef ItemOID="track_study_summary" Mandatory="No" redcap:Variable="track_study_summary"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="tracker_form.track_topics" Name="Tracker Form" Repeating="No">
+		<ItemRef ItemOID="track_topics" Mandatory="No" redcap:Variable="track_topics"/>
+		<ItemRef ItemOID="track_explain_voluntary" Mandatory="No" redcap:Variable="track_explain_voluntary"/>
+		<ItemRef ItemOID="track_explain_confidential" Mandatory="No" redcap:Variable="track_explain_confidential"/>
+		<ItemRef ItemOID="study_past" Mandatory="No" redcap:Variable="study_past"/>
+		<ItemRef ItemOID="track_study_eligible" Mandatory="No" redcap:Variable="track_study_eligible"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="tracker_form.track_obtained_consent" Name="Obtain Consent" Repeating="No">
+		<ItemRef ItemOID="track_obtained_consent" Mandatory="No" redcap:Variable="track_obtained_consent"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="tracker_form.track_focus_study_ineligble" Name="Tracker Form" Repeating="No">
+		<ItemRef ItemOID="track_focus_study_ineligble" Mandatory="No" redcap:Variable="track_focus_study_ineligble"/>
+		<ItemRef ItemOID="track_no_participate" Mandatory="No" redcap:Variable="track_no_participate"/>
+		<ItemRef ItemOID="track_phone_texts" Mandatory="No" redcap:Variable="track_phone_texts"/>
+		<ItemRef ItemOID="track_alternate_phone" Mandatory="No" redcap:Variable="track_alternate_phone"/>
+		<ItemRef ItemOID="track_gift_card_preference" Mandatory="No" redcap:Variable="track_gift_card_preference"/>
+		<ItemRef ItemOID="track_agency" Mandatory="No" redcap:Variable="track_agency"/>
+		<ItemRef ItemOID="track_address" Mandatory="No" redcap:Variable="track_address"/>
+		<ItemRef ItemOID="track_email_gift_card" Mandatory="No" redcap:Variable="track_email_gift_card"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="tracker_form.track_username" Name="Setting up FOCUS Accounts: Participants" Repeating="No">
+		<ItemRef ItemOID="track_username" Mandatory="No" redcap:Variable="track_username"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="tracker_form.track_password" Name="Tracker Form" Repeating="No">
+		<ItemRef ItemOID="track_password" Mandatory="No" redcap:Variable="track_password"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="tracker_form.track_credentials_shared" Name="Outreach to mHSS about new participant" Repeating="No">
+		<ItemRef ItemOID="track_credentials_shared" Mandatory="No" redcap:Variable="track_credentials_shared"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="tracker_form.track_installed_focus" Name="Tracker Form" Repeating="No">
+		<ItemRef ItemOID="track_installed_focus" Mandatory="No" redcap:Variable="track_installed_focus"/>
+		<ItemRef ItemOID="lost_follow_up" Mandatory="No" redcap:Variable="lost_follow_up"/>
+		<ItemRef ItemOID="lost_reason" Mandatory="No" redcap:Variable="lost_reason"/>
+		<ItemRef ItemOID="track_notes" Mandatory="No" redcap:Variable="track_notes"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="tracker_form.tracker_form_complete" Name="Form Status" Repeating="No">
+		<ItemRef ItemOID="tracker_form_complete" Mandatory="No" redcap:Variable="tracker_form_complete"/>
+	</ItemGroupDef>
+	<ItemDef OID="record_id" Name="record_id" DataType="text" Length="999" redcap:Variable="record_id" redcap:FieldType="text">
+		<Question><TranslatedText>Record ID</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="datetime" Name="datetime" DataType="text" Length="999" redcap:Variable="datetime" redcap:FieldType="text" redcap:FieldAnnotation="@NOW
+@HIDDEN">
+		<Question><TranslatedText></TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="screener_desc" Name="screener_desc" DataType="text" Length="999" redcap:Variable="screener_desc" redcap:FieldType="descriptive">
+		<Question><TranslatedText> Please complete the information below in order to learn more about the FOCUS program. By completing the information below, you are agreeing to be contacted about the FOCUS application. If you are completing this information on behalf of someone else, please ensure they have provided permission to share their information and be contacted about FOCUS.</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="referral_source" Name="referral_source" DataType="text" Length="1" redcap:Variable="referral_source" redcap:FieldType="radio">
+		<Question><TranslatedText>Are you filling this for yourself or someone else?</TranslatedText></Question>
+		<CodeListRef CodeListOID="referral_source.choices"/>
+	</ItemDef>
+	<ItemDef OID="referral_name" Name="referral_name" DataType="text" Length="999" redcap:Variable="referral_name" redcap:FieldType="text" redcap:BranchingLogic="[referral_source] = &#039;2&#039;">
+		<Question><TranslatedText>Referring Clinician&#039;s Full Name</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="client_first_name" Name="client_first_name" DataType="text" Length="999" redcap:Variable="client_first_name" redcap:FieldType="text" redcap:RequiredField="y">
+		<Question><TranslatedText>First Name</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="client_last_name" Name="client_last_name" DataType="text" Length="999" redcap:Variable="client_last_name" redcap:FieldType="text" redcap:RequiredField="y">
+		<Question><TranslatedText>Last Name</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="phone" Name="phone" DataType="text" Length="999" redcap:Variable="phone" redcap:FieldType="text" redcap:TextValidationType="phone" redcap:RequiredField="y">
+		<Question><TranslatedText>Cell Phone Number</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="client_email" Name="client_email" DataType="text" Length="999" redcap:Variable="client_email" redcap:FieldType="text" redcap:TextValidationType="email">
+		<Question><TranslatedText>Email Address</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="guardian" Name="guardian" DataType="text" Length="2" redcap:Variable="guardian" redcap:FieldType="radio">
+		<Question><TranslatedText>Have a legal guardian?</TranslatedText></Question>
+		<CodeListRef CodeListOID="guardian.choices"/>
+	</ItemDef>
+	<ItemDef OID="guardian_name" Name="guardian_name" DataType="text" Length="999" redcap:Variable="guardian_name" redcap:FieldType="text" redcap:BranchingLogic="[guardian] = &#039;1&#039;">
+		<Question><TranslatedText>What is the guardian&#039;s full name?</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="guardian_number" Name="guardian_number" DataType="text" Length="999" redcap:Variable="guardian_number" redcap:FieldType="text" redcap:BranchingLogic="[guardian] = &#039;1&#039;">
+		<Question><TranslatedText>What is the guardian&#039;s phone number?</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="health_center" Name="health_center" DataType="text" Length="1" redcap:Variable="health_center" redcap:FieldType="select" redcap:RequiredField="y">
+		<Question><TranslatedText>Please select your health center:</TranslatedText></Question>
+		<CodeListRef CodeListOID="health_center.choices"/>
+	</ItemDef>
+	<ItemDef OID="pfp_team" Name="pfp_team" DataType="text" Length="2" redcap:Variable="pfp_team" redcap:FieldType="radio" redcap:BranchingLogic="[health_center] = &#039;1&#039;">
+		<Question><TranslatedText>Team:</TranslatedText></Question>
+		<CodeListRef CodeListOID="pfp_team.choices"/>
+	</ItemDef>
+	<ItemDef OID="mhcgm_team" Name="mhcgm_team" DataType="text" Length="2" redcap:Variable="mhcgm_team" redcap:FieldType="radio" redcap:BranchingLogic="[health_center] = &#039;2&#039;">
+		<Question><TranslatedText>Team:</TranslatedText></Question>
+		<CodeListRef CodeListOID="mhcgm_team.choices"/>
+	</ItemDef>
+	<ItemDef OID="cp_team" Name="cp_team" DataType="text" Length="2" redcap:Variable="cp_team" redcap:FieldType="radio" redcap:BranchingLogic="[health_center] = &#039;3&#039;">
+		<Question><TranslatedText>Team:</TranslatedText></Question>
+		<CodeListRef CodeListOID="cp_team.choices"/>
+	</ItemDef>
+	<ItemDef OID="kt_team" Name="kt_team" DataType="text" Length="2" redcap:Variable="kt_team" redcap:FieldType="radio" redcap:BranchingLogic="[health_center] = &#039;4&#039;">
+		<Question><TranslatedText>Team:</TranslatedText></Question>
+		<CodeListRef CodeListOID="kt_team.choices"/>
+	</ItemDef>
+	<ItemDef OID="client_research_interest" Name="client_research_interest" DataType="text" Length="2" redcap:Variable="client_research_interest" redcap:FieldType="radio">
+		<Question><TranslatedText>Interested in being a research participant (complete a series of online questionnaires)?</TranslatedText></Question>
+		<CodeListRef CodeListOID="client_research_interest.choices"/>
+	</ItemDef>
+	<ItemDef OID="site_id" Name="site_id" DataType="text" Length="999" redcap:Variable="site_id" redcap:FieldType="text" redcap:FieldAnnotation="@CALCTEXT(if([health_center]=&#039;1&#039;,&#039;P&#039;,if([health_center]=&#039;2&#039;,&#039;M&#039;, if([health_center]=&#039;4&#039;,&#039;K&#039;, if([health_center]=&#039;5&#039;, &#039;S&#039;, &#039;C&#039;)))))
+@HIDDEN">
+		<Question><TranslatedText></TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="other_id" Name="other_id" DataType="text" Length="999" redcap:Variable="other_id" redcap:FieldType="text" redcap:FieldAnnotation="@CALCTEXT(if([record_id]=1,1,[record_id]))
+@HIDDEN">
+		<Question><TranslatedText>Record ID (Calculated)</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="client_id" Name="client_id" DataType="text" Length="999" redcap:Variable="client_id" redcap:FieldType="text" redcap:FieldAnnotation="@CALCTEXT(concat ([site_id],[other_id]))
+
+@HIDDEN">
+		<Question><TranslatedText>Client ID</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="focus_recruitment_form_complete" Name="focus_recruitment_form_complete" DataType="text" Length="1" redcap:Variable="focus_recruitment_form_complete" redcap:FieldType="select" redcap:SectionHeader="Form Status">
+		<Question><TranslatedText>Complete?</TranslatedText></Question>
+		<CodeListRef CodeListOID="focus_recruitment_form_complete.choices"/>
+	</ItemDef>
+	<ItemDef OID="thank_you" Name="thank_you" DataType="text" Length="999" redcap:Variable="thank_you" redcap:FieldType="descriptive">
+		<Question><TranslatedText>Thank you! A member of the study team will be in touch shortly to share more information.</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="thank_you_complete" Name="thank_you_complete" DataType="text" Length="1" redcap:Variable="thank_you_complete" redcap:FieldType="select" redcap:SectionHeader="Form Status">
+		<Question><TranslatedText>Complete?</TranslatedText></Question>
+		<CodeListRef CodeListOID="thank_you_complete.choices"/>
+	</ItemDef>
+	<ItemDef OID="track_invalid" Name="track_invalid" DataType="boolean" Length="1" redcap:Variable="track_invalid" redcap:FieldType="yesno" redcap:SectionHeader="Participant Outreach: First Contact">
+		<Question><TranslatedText>Invalid referral?</TranslatedText></Question>
+		<CodeListRef CodeListOID="track_invalid.choices"/>
+	</ItemDef>
+	<ItemDef OID="track_id" Name="track_id" DataType="text" Length="999" redcap:Variable="track_id" redcap:FieldType="text">
+		<Question><TranslatedText>Client ID: [client_id]</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="track_first_contact" Name="track_first_contact" DataType="boolean" Length="1" redcap:Variable="track_first_contact" redcap:FieldType="yesno">
+		<Question><TranslatedText>First text sent?</TranslatedText></Question>
+		<CodeListRef CodeListOID="track_first_contact.choices"/>
+	</ItemDef>
+	<ItemDef OID="track_first_text_date" Name="track_first_text_date" DataType="date" Length="999" redcap:Variable="track_first_text_date" redcap:FieldType="text" redcap:TextValidationType="date_mdy">
+		<Question><TranslatedText>First text date:</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="track_first_response" Name="track_first_response" DataType="boolean" Length="1" redcap:Variable="track_first_response" redcap:FieldType="yesno">
+		<Question><TranslatedText>Client responded to first text?</TranslatedText></Question>
+		<CodeListRef CodeListOID="track_first_response.choices"/>
+	</ItemDef>
+	<ItemDef OID="track_second_contact" Name="track_second_contact" DataType="boolean" Length="1" redcap:Variable="track_second_contact" redcap:FieldType="yesno" redcap:BranchingLogic="[track_first_response] = &#039;0&#039;">
+		<Question><TranslatedText>Follow-up call made?</TranslatedText></Question>
+		<CodeListRef CodeListOID="track_second_contact.choices"/>
+	</ItemDef>
+	<ItemDef OID="track_follow_call_date" Name="track_follow_call_date" DataType="date" Length="999" redcap:Variable="track_follow_call_date" redcap:FieldType="text" redcap:TextValidationType="date_mdy" redcap:BranchingLogic="[track_second_contact] = &#039;0&#039; or [track_second_contact] = &#039;1&#039;">
+		<Question><TranslatedText>Follow-up call date</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="track_follow_response" Name="track_follow_response" DataType="boolean" Length="1" redcap:Variable="track_follow_response" redcap:FieldType="yesno" redcap:BranchingLogic="[track_second_contact] = &#039;1&#039;">
+		<Question><TranslatedText>Client responded to follow-up call?</TranslatedText></Question>
+		<CodeListRef CodeListOID="track_follow_response.choices"/>
+	</ItemDef>
+	<ItemDef OID="track_client_drop" Name="track_client_drop" DataType="boolean" Length="1" redcap:Variable="track_client_drop" redcap:FieldType="yesno" redcap:BranchingLogic="[track_follow_response] = &#039;0&#039;">
+		<Question><TranslatedText>Client dropped?</TranslatedText></Question>
+		<CodeListRef CodeListOID="track_client_drop.choices"/>
+	</ItemDef>
+	<ItemDef OID="call_interest" Name="call_interest" DataType="boolean" Length="1" redcap:Variable="call_interest" redcap:FieldType="yesno">
+		<Question><TranslatedText>Interested in learning about study (description call)?</TranslatedText></Question>
+		<CodeListRef CodeListOID="call_interest.choices"/>
+	</ItemDef>
+	<ItemDef OID="no_desc_call_reason" Name="no_desc_call_reason" DataType="text" Length="999" redcap:Variable="no_desc_call_reason" redcap:FieldType="text" redcap:BranchingLogic="[call_interest] = &#039;0&#039;">
+		<Question><TranslatedText>Reason for no interest in description call?</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="track_call_date" Name="track_call_date" DataType="date" Length="999" redcap:Variable="track_call_date" redcap:FieldType="text" redcap:TextValidationType="date_mdy" redcap:SectionHeader="Participant Outreach: Study Description">
+		<Question><TranslatedText>Date of FOCUS description Call</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="track_consent_call" Name="track_consent_call" DataType="boolean" Length="1" redcap:Variable="track_consent_call" redcap:FieldType="yesno">
+		<Question><TranslatedText>FOCUS description call initiated</TranslatedText></Question>
+		<CodeListRef CodeListOID="track_consent_call.choices"/>
+	</ItemDef>
+	<ItemDef OID="track_participation_type" Name="track_participation_type" DataType="text" Length="1" redcap:Variable="track_participation_type" redcap:FieldType="radio">
+		<Question><TranslatedText>Participation type</TranslatedText></Question>
+		<CodeListRef CodeListOID="track_participation_type.choices"/>
+	</ItemDef>
+	<ItemDef OID="track_initial_interest_reason" Name="track_initial_interest_reason" DataType="text" Length="999" redcap:Variable="track_initial_interest_reason" redcap:FieldType="textarea" redcap:BranchingLogic="[track_participation_type] = &#039;3&#039;">
+		<Question><TranslatedText>Reason for no interest</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="track_over_18" Name="track_over_18" DataType="boolean" Length="1" redcap:Variable="track_over_18" redcap:FieldType="yesno" redcap:SectionHeader="Participant Outreach: Eligibility">
+		<Question><TranslatedText>Is client over the age of 18?</TranslatedText></Question>
+		<CodeListRef CodeListOID="track_over_18.choices"/>
+	</ItemDef>
+	<ItemDef OID="track_own_smartphone" Name="track_own_smartphone" DataType="boolean" Length="1" redcap:Variable="track_own_smartphone" redcap:FieldType="yesno">
+		<Question><TranslatedText>Do they own a smartphone? </TranslatedText></Question>
+		<CodeListRef CodeListOID="track_own_smartphone.choices"/>
+	</ItemDef>
+	<ItemDef OID="track_os" Name="track_os" DataType="text" Length="1" redcap:Variable="track_os" redcap:FieldType="radio">
+		<Question><TranslatedText>Phone OS</TranslatedText></Question>
+		<CodeListRef CodeListOID="track_os.choices"/>
+	</ItemDef>
+	<ItemDef OID="track_phone_model" Name="track_phone_model" DataType="text" Length="999" redcap:Variable="track_phone_model" redcap:FieldType="text">
+		<Question><TranslatedText>Phone model</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="track_english_fluency" Name="track_english_fluency" DataType="boolean" Length="1" redcap:Variable="track_english_fluency" redcap:FieldType="yesno">
+		<Question><TranslatedText>Can the client speak English fluently?</TranslatedText></Question>
+		<CodeListRef CodeListOID="track_english_fluency.choices"/>
+	</ItemDef>
+	<ItemDef OID="track_receiving_services" Name="track_receiving_services" DataType="boolean" Length="1" redcap:Variable="track_receiving_services" redcap:FieldType="yesno">
+		<Question><TranslatedText>Is client receiving mental health services at [health_center]?</TranslatedText></Question>
+		<CodeListRef CodeListOID="track_receiving_services.choices"/>
+	</ItemDef>
+	<ItemDef OID="track_continue_services" Name="track_continue_services" DataType="boolean" Length="1" redcap:Variable="track_continue_services" redcap:FieldType="yesno">
+		<Question><TranslatedText>Does the client plan to continue services at this place for the next three months?</TranslatedText></Question>
+		<CodeListRef CodeListOID="track_continue_services.choices"/>
+	</ItemDef>
+	<ItemDef OID="track_phone_use_difficulty" Name="track_phone_use_difficulty" DataType="text" Length="1" redcap:Variable="track_phone_use_difficulty" redcap:FieldType="radio">
+		<Question><TranslatedText>Does client have difficulty seeing or hearing the phone when using it? Are they unable to read the screen and work the buttons on a touch screen phone? 
+(Eligible = No, but assess how difficult)</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;Does client have difficulty seeing or hearing the phone when using it? Are they unable to read the screen and work the buttons on a touch screen phone?&lt;/p&gt; &lt;p&gt;&lt;br /&gt;&lt;span style=&quot;text-decoration: underline; color: #e03e2d;&quot;&gt;(Eligible = No, but assess how difficult)&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+		<CodeListRef CodeListOID="track_phone_use_difficulty.choices"/>
+	</ItemDef>
+	<ItemDef OID="track_wifi_data" Name="track_wifi_data" DataType="boolean" Length="1" redcap:Variable="track_wifi_data" redcap:FieldType="yesno">
+		<Question><TranslatedText>Does the client have access to reliable Wi-Fi or data plan on their phone?
+
+(Eligible = Yes)</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;Does the client have access to reliable Wi-Fi or data plan on their phone?&lt;br /&gt;&lt;br /&gt;&lt;span style=&quot;text-decoration: underline; color: #e03e2d;&quot;&gt;(Eligible = Yes)&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+		<CodeListRef CodeListOID="track_wifi_data.choices"/>
+	</ItemDef>
+	<ItemDef OID="track_phone_share" Name="track_phone_share" DataType="text" Length="1" redcap:Variable="track_phone_share" redcap:FieldType="radio">
+		<Question><TranslatedText>Do they share their phone with anyone else regularly?
+
+(Eligible = No, but discuss)</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;Do they share their phone with anyone else regularly?&lt;br /&gt;&lt;br /&gt;&lt;span style=&quot;text-decoration: underline; color: #e03e2d;&quot;&gt;(Eligible = No, but discuss)&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+		<CodeListRef CodeListOID="track_phone_share.choices"/>
+	</ItemDef>
+	<ItemDef OID="track_focus_eligible" Name="track_focus_eligible" DataType="float" Length="999" redcap:Variable="track_focus_eligible" redcap:FieldType="calc" redcap:Calculation="if ([track_over_18]+[track_own_smartphone]+[track_english_fluency]+[track_receiving_services]+[track_continue_services]+[track_phone_use_difficulty]+[track_wifi_data]+[track_phone_share]=8,1,0)">
+		<Question><TranslatedText>FOCUS Eligibility (Calculated):
+
+1 = Eligible
+0 = Not Eligibile</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="mhealth_past" Name="mhealth_past" DataType="boolean" Length="1" redcap:Variable="mhealth_past" redcap:FieldType="yesno">
+		<Question><TranslatedText>Has the client used a mobile health focused application to manage your physical or mental health?</TranslatedText></Question>
+		<CodeListRef CodeListOID="mhealth_past.choices"/>
+	</ItemDef>
+	<ItemDef OID="focus_past" Name="focus_past" DataType="boolean" Length="1" redcap:Variable="focus_past" redcap:FieldType="yesno" redcap:BranchingLogic="[mhealth_past] = &#039;1&#039;">
+		<Question><TranslatedText>Has the client ever used FOCUS before?</TranslatedText></Question>
+		<CodeListRef CodeListOID="focus_past.choices"/>
+	</ItemDef>
+	<ItemDef OID="consent_recontact" Name="consent_recontact" DataType="boolean" Length="1" redcap:Variable="consent_recontact" redcap:FieldType="yesno">
+		<Question><TranslatedText>Want to be contacted for future research opportunities?</TranslatedText></Question>
+		<CodeListRef CodeListOID="consent_recontact.choices"/>
+	</ItemDef>
+	<ItemDef OID="track_study_summary" Name="track_study_summary" DataType="boolean" Length="1" redcap:Variable="track_study_summary" redcap:FieldType="yesno" redcap:SectionHeader="Participant Outreach: Consenting">
+		<Question><TranslatedText>Can the client summarize the study accurately?
+(how long the study is, what the study involves, and when/how they need to complete questionnaires) </TranslatedText></Question>
+		<CodeListRef CodeListOID="track_study_summary.choices"/>
+	</ItemDef>
+	<ItemDef OID="track_topics" Name="track_topics" DataType="boolean" Length="1" redcap:Variable="track_topics" redcap:FieldType="yesno">
+		<Question><TranslatedText>Can the client repeat FOCUS topics?</TranslatedText></Question>
+		<CodeListRef CodeListOID="track_topics.choices"/>
+	</ItemDef>
+	<ItemDef OID="track_explain_voluntary" Name="track_explain_voluntary" DataType="boolean" Length="1" redcap:Variable="track_explain_voluntary" redcap:FieldType="yesno">
+		<Question><TranslatedText>Can the client explain voluntary?</TranslatedText></Question>
+		<CodeListRef CodeListOID="track_explain_voluntary.choices"/>
+	</ItemDef>
+	<ItemDef OID="track_explain_confidential" Name="track_explain_confidential" DataType="boolean" Length="1" redcap:Variable="track_explain_confidential" redcap:FieldType="yesno">
+		<Question><TranslatedText>Can the client explain confidential?</TranslatedText></Question>
+		<CodeListRef CodeListOID="track_explain_confidential.choices"/>
+	</ItemDef>
+	<ItemDef OID="study_past" Name="study_past" DataType="text" Length="1" redcap:Variable="study_past" redcap:FieldType="radio">
+		<Question><TranslatedText>Has the client ever participated in this study before?
+
+(Eligible = No)</TranslatedText></Question>
+		<CodeListRef CodeListOID="study_past.choices"/>
+	</ItemDef>
+	<ItemDef OID="track_study_eligible" Name="track_study_eligible" DataType="float" Length="999" redcap:Variable="track_study_eligible" redcap:FieldType="calc" redcap:Calculation="if ([track_study_summary]+[track_topics]+[track_explain_voluntary]+[track_explain_confidential]+[study_past]=5,1,0)">
+		<Question><TranslatedText>Study Eligibility (Calculated)
+
+1 = Eligible
+0 = Not Eligible</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="track_obtained_consent" Name="track_obtained_consent" DataType="boolean" Length="1" redcap:Variable="track_obtained_consent" redcap:FieldType="yesno" redcap:SectionHeader="Obtain Consent" redcap:BranchingLogic="[track_study_eligible] = &#039;1&#039;">
+		<Question><TranslatedText>Consent obtained?</TranslatedText></Question>
+		<CodeListRef CodeListOID="track_obtained_consent.choices"/>
+	</ItemDef>
+	<ItemDef OID="track_focus_study_ineligble" Name="track_focus_study_ineligble" DataType="boolean" Length="1" redcap:Variable="track_focus_study_ineligble" redcap:FieldType="yesno" redcap:BranchingLogic="[track_study_eligible] = &#039;0&#039; or [track_obtained_consent] = &#039;0&#039;">
+		<Question><TranslatedText>Still want to use FOCUS?</TranslatedText></Question>
+		<CodeListRef CodeListOID="track_focus_study_ineligble.choices"/>
+	</ItemDef>
+	<ItemDef OID="track_no_participate" Name="track_no_participate" DataType="text" Length="999" redcap:Variable="track_no_participate" redcap:FieldType="textarea" redcap:BranchingLogic="[track_obtained_consent] = &#039;0&#039;">
+		<Question><TranslatedText>Reasons why client does not what to participate?</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="track_phone_texts" Name="track_phone_texts" DataType="boolean" Length="1" redcap:Variable="track_phone_texts" redcap:FieldType="yesno" redcap:BranchingLogic="[track_obtained_consent] = &#039;1&#039;">
+		<Question><TranslatedText>Phone number receives text?</TranslatedText></Question>
+		<CodeListRef CodeListOID="track_phone_texts.choices"/>
+	</ItemDef>
+	<ItemDef OID="track_alternate_phone" Name="track_alternate_phone" DataType="text" Length="999" redcap:Variable="track_alternate_phone" redcap:FieldType="text" redcap:TextValidationType="email" redcap:BranchingLogic="[track_phone_texts] = &#039;0&#039;">
+		<Question><TranslatedText>Email alternative:</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="track_gift_card_preference" Name="track_gift_card_preference" DataType="text" Length="1" redcap:Variable="track_gift_card_preference" redcap:FieldType="radio" redcap:BranchingLogic="[track_obtained_consent] = &#039;1&#039;">
+		<Question><TranslatedText>Gift card location preference?</TranslatedText></Question>
+		<CodeListRef CodeListOID="track_gift_card_preference.choices"/>
+	</ItemDef>
+	<ItemDef OID="track_agency" Name="track_agency" DataType="text" Length="1" redcap:Variable="track_agency" redcap:FieldType="radio" redcap:BranchingLogic="[track_gift_card_preference] = &#039;1&#039;">
+		<Question><TranslatedText>Which Agency?</TranslatedText></Question>
+		<CodeListRef CodeListOID="track_agency.choices"/>
+	</ItemDef>
+	<ItemDef OID="track_address" Name="track_address" DataType="text" Length="999" redcap:Variable="track_address" redcap:FieldType="textarea" redcap:BranchingLogic="[track_gift_card_preference] = &#039;2&#039;">
+		<Question><TranslatedText>Client&#039;s address:</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="track_email_gift_card" Name="track_email_gift_card" DataType="text" Length="999" redcap:Variable="track_email_gift_card" redcap:FieldType="text" redcap:BranchingLogic="[track_gift_card_preference] = &#039;3&#039;">
+		<Question><TranslatedText>Email</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="track_username" Name="track_username" DataType="text" Length="999" redcap:Variable="track_username" redcap:FieldType="text" redcap:SectionHeader="Setting up FOCUS Accounts: Participants">
+		<Question><TranslatedText>FOCUS username:</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="track_password" Name="track_password" DataType="text" Length="999" redcap:Variable="track_password" redcap:FieldType="text">
+		<Question><TranslatedText>FOCUS password:</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="track_credentials_shared" Name="track_credentials_shared" DataType="boolean" Length="1" redcap:Variable="track_credentials_shared" redcap:FieldType="yesno" redcap:SectionHeader="Outreach to mHSS about new participant">
+		<Question><TranslatedText>FOCUS credentials shared with mHSS?</TranslatedText></Question>
+		<CodeListRef CodeListOID="track_credentials_shared.choices"/>
+	</ItemDef>
+	<ItemDef OID="track_installed_focus" Name="track_installed_focus" DataType="boolean" Length="1" redcap:Variable="track_installed_focus" redcap:FieldType="yesno">
+		<Question><TranslatedText>FOCUS installed?</TranslatedText></Question>
+		<CodeListRef CodeListOID="track_installed_focus.choices"/>
+	</ItemDef>
+	<ItemDef OID="lost_follow_up" Name="lost_follow_up" DataType="boolean" Length="1" redcap:Variable="lost_follow_up" redcap:FieldType="yesno">
+		<Question><TranslatedText>Lost to follow-up?</TranslatedText></Question>
+		<CodeListRef CodeListOID="lost_follow_up.choices"/>
+	</ItemDef>
+	<ItemDef OID="lost_reason" Name="lost_reason" DataType="text" Length="999" redcap:Variable="lost_reason" redcap:FieldType="textarea" redcap:BranchingLogic="[lost_follow_up] = &#039;1&#039;">
+		<Question><TranslatedText>Reason for lost to follow-up:</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="track_notes" Name="track_notes" DataType="text" Length="999" redcap:Variable="track_notes" redcap:FieldType="textarea">
+		<Question><TranslatedText>Client Status/Updates</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="tracker_form_complete" Name="tracker_form_complete" DataType="text" Length="1" redcap:Variable="tracker_form_complete" redcap:FieldType="select" redcap:SectionHeader="Form Status">
+		<Question><TranslatedText>Complete?</TranslatedText></Question>
+		<CodeListRef CodeListOID="tracker_form_complete.choices"/>
+	</ItemDef>
+	<CodeList OID="referral_source.choices" Name="referral_source" DataType="text" redcap:Variable="referral_source">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Myself</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Someone else</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="guardian.choices" Name="guardian" DataType="text" redcap:Variable="guardian">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="99"><Decode><TranslatedText>Unsure</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="health_center.choices" Name="health_center" DataType="text" redcap:Variable="health_center">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Places for People (PfP)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Mental Health Center of Greater Manchester (MHCGM)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Community Partners New Hampshire (CPNH)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>Kitsap Mental Health Services (KMHS)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>San Fernando Mental Health Center (SFMH)</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="pfp_team.choices" Name="pfp_team" DataType="text" redcap:Variable="pfp_team">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>PHIT</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Team C</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Complex Care</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>PSRC</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>Outreach</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="6"><Decode><TranslatedText>Nat Rivers</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="7"><Decode><TranslatedText>Hope</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="8"><Decode><TranslatedText>Path</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="9"><Decode><TranslatedText>Team D</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="10"><Decode><TranslatedText>Impact</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="11"><Decode><TranslatedText>Rise</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="12"><Decode><TranslatedText>Intake</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="13"><Decode><TranslatedText>Team B</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="14"><Decode><TranslatedText>Action</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="99"><Decode><TranslatedText>Unsure</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="mhcgm_team.choices" Name="mhcgm_team" DataType="text" redcap:Variable="mhcgm_team">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>MCST</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>NEC</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>CCM</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>GCTT</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>Intake</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="6"><Decode><TranslatedText>Engagement</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="7"><Decode><TranslatedText>BCA</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="99"><Decode><TranslatedText>Unsure</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="cp_team.choices" Name="cp_team" DataType="text" redcap:Variable="cp_team">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Dover ADT</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Rochester ADT</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>ACT</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>Case Management</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="99"><Decode><TranslatedText>Unsure</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="kt_team.choices" Name="kt_team" DataType="text" redcap:Variable="kt_team">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Engagement</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Pendleton Place</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Co-occurring Team</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>Clubhouse</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>Orientation/Intake</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="6"><Decode><TranslatedText>Keller</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="99"><Decode><TranslatedText>Unsure</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="client_research_interest.choices" Name="client_research_interest" DataType="text" redcap:Variable="client_research_interest">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="99"><Decode><TranslatedText>Unsure</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="focus_recruitment_form_complete.choices" Name="focus_recruitment_form_complete" DataType="text" redcap:Variable="focus_recruitment_form_complete">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Incomplete</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Unverified</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Complete</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="thank_you_complete.choices" Name="thank_you_complete" DataType="text" redcap:Variable="thank_you_complete">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Incomplete</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Unverified</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Complete</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="track_invalid.choices" Name="track_invalid" DataType="boolean" redcap:Variable="track_invalid">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="track_first_contact.choices" Name="track_first_contact" DataType="boolean" redcap:Variable="track_first_contact">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="track_first_response.choices" Name="track_first_response" DataType="boolean" redcap:Variable="track_first_response">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="track_second_contact.choices" Name="track_second_contact" DataType="boolean" redcap:Variable="track_second_contact">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="track_follow_response.choices" Name="track_follow_response" DataType="boolean" redcap:Variable="track_follow_response">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="track_client_drop.choices" Name="track_client_drop" DataType="boolean" redcap:Variable="track_client_drop">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="call_interest.choices" Name="call_interest" DataType="boolean" redcap:Variable="call_interest">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="track_consent_call.choices" Name="track_consent_call" DataType="boolean" redcap:Variable="track_consent_call">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="track_participation_type.choices" Name="track_participation_type" DataType="text" redcap:Variable="track_participation_type">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>FOCUS + Study</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>FOCUS only</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>No participation</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="track_over_18.choices" Name="track_over_18" DataType="boolean" redcap:Variable="track_over_18">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="track_own_smartphone.choices" Name="track_own_smartphone" DataType="boolean" redcap:Variable="track_own_smartphone">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="track_os.choices" Name="track_os" DataType="text" redcap:Variable="track_os">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Android</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>iPhone</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="track_english_fluency.choices" Name="track_english_fluency" DataType="boolean" redcap:Variable="track_english_fluency">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="track_receiving_services.choices" Name="track_receiving_services" DataType="boolean" redcap:Variable="track_receiving_services">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="track_continue_services.choices" Name="track_continue_services" DataType="boolean" redcap:Variable="track_continue_services">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="track_phone_use_difficulty.choices" Name="track_phone_use_difficulty" DataType="text" redcap:Variable="track_phone_use_difficulty">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="track_wifi_data.choices" Name="track_wifi_data" DataType="boolean" redcap:Variable="track_wifi_data">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="track_phone_share.choices" Name="track_phone_share" DataType="text" redcap:Variable="track_phone_share">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="mhealth_past.choices" Name="mhealth_past" DataType="boolean" redcap:Variable="mhealth_past">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="focus_past.choices" Name="focus_past" DataType="boolean" redcap:Variable="focus_past">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="consent_recontact.choices" Name="consent_recontact" DataType="boolean" redcap:Variable="consent_recontact">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="track_study_summary.choices" Name="track_study_summary" DataType="boolean" redcap:Variable="track_study_summary">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="track_topics.choices" Name="track_topics" DataType="boolean" redcap:Variable="track_topics">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="track_explain_voluntary.choices" Name="track_explain_voluntary" DataType="boolean" redcap:Variable="track_explain_voluntary">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="track_explain_confidential.choices" Name="track_explain_confidential" DataType="boolean" redcap:Variable="track_explain_confidential">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="study_past.choices" Name="study_past" DataType="text" redcap:Variable="study_past">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="track_obtained_consent.choices" Name="track_obtained_consent" DataType="boolean" redcap:Variable="track_obtained_consent">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="track_focus_study_ineligble.choices" Name="track_focus_study_ineligble" DataType="boolean" redcap:Variable="track_focus_study_ineligble">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="track_phone_texts.choices" Name="track_phone_texts" DataType="boolean" redcap:Variable="track_phone_texts">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="track_gift_card_preference.choices" Name="track_gift_card_preference" DataType="text" redcap:Variable="track_gift_card_preference">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Agency</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Home Address</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Digital</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="track_agency.choices" Name="track_agency" DataType="text" redcap:Variable="track_agency">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Places for People</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Mental Health Center of Greater Manchester</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Community Partners New Hampshire</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="track_credentials_shared.choices" Name="track_credentials_shared" DataType="boolean" redcap:Variable="track_credentials_shared">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="track_installed_focus.choices" Name="track_installed_focus" DataType="boolean" redcap:Variable="track_installed_focus">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="lost_follow_up.choices" Name="lost_follow_up" DataType="boolean" redcap:Variable="lost_follow_up">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="tracker_form_complete.choices" Name="tracker_form_complete" DataType="text" redcap:Variable="tracker_form_complete">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Incomplete</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Unverified</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Complete</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+</MetaDataVersion>
+</Study>
+</ODM>
